@@ -15,7 +15,7 @@ public class Cam : MonoBehaviour
     [Range(0.0f, 10.0f)]
     public float height = 2.0f;
     // 반응 속도
-    public float damping = 10.0f;
+    public float damping = 5.0f;
     // 카메라 LookAt의 Offset 값
     public float targetOffset = 2.0f;
     // SmoothDamp에서 사용할 변수
