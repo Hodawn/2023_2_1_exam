@@ -30,7 +30,7 @@ public class Cam : MonoBehaviour
         // 추적해야 할 대상의 뒤쪽으로 distance만큼 이동
         // 높이를 height만큼 이동
         Vector3 pos = targetTr.position
-        + (-targetTr.forward * distance)
+        + (targetTr.right * distance)
         + (Vector3.up * height);
         // 구면 선형 보간함수를 사용해 부드럽게 위치를 변경
         // camTr.position = Vector3.Slerp(camTr.position, // 시작 위치
